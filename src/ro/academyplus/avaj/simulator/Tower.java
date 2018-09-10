@@ -1,7 +1,6 @@
 package ro.academyplus.avaj.simulator;
 
 import ro.academyplus.avaj.simulator.vehicles.Flyable;
-
 import java.util.ArrayList;
 
 public class Tower {
