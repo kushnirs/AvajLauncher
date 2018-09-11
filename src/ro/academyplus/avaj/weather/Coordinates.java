@@ -1,5 +1,6 @@
 package ro.academyplus.avaj.weather;
 
+
 public class Coordinates {
     private int longitude;
     private int latitude;

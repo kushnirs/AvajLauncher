@@ -1,6 +1,8 @@
 package ro.academyplus.avaj.simulator;
 
 import ro.academyplus.avaj.simulator.MyException.AmountParameterException;
+import ro.academyplus.avaj.simulator.MyException.WrongCoordException;
+import ro.academyplus.avaj.simulator.MyException.WrongTypeException;
 import ro.academyplus.avaj.simulator.vehicles.AircraftFactory;
 import ro.academyplus.avaj.simulator.vehicles.Flyable;
 
@@ -54,12 +56,16 @@ public class Simulator {
                 }
                 file.closeLog();
             }
+        } catch (WrongCoordException e) {
+            System.out.println(e.getMsg());
+        } catch (WrongTypeException e) {
+            System.out.println(e.getMsg());
         } catch (AmountParameterException e) {
             System.out.println(e.getMsg());
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
         } catch (NumberFormatException e) {
             System.out.println("Some parameter is't number");
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
     }
 }

@@ -1,7 +1,9 @@
 ./ro/academyplus/avaj/simulator/WeatherTower.java
 ./ro/academyplus/avaj/simulator/Tower.java
 ./ro/academyplus/avaj/simulator/Logger.java
+./ro/academyplus/avaj/simulator/MyException/WrongCoordException.java
 ./ro/academyplus/avaj/simulator/MyException/AmountParameterException.java
+./ro/academyplus/avaj/simulator/MyException/WrongTypeException.java
 ./ro/academyplus/avaj/simulator/Simulator.java
 ./ro/academyplus/avaj/simulator/vehicles/Baloon.java
 ./ro/academyplus/avaj/simulator/vehicles/Aircraft.java
