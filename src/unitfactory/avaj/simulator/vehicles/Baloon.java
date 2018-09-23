@@ -1,7 +1,7 @@
-package ro.academyplus.avaj.simulator.vehicles;
+package unitfactory.avaj.simulator.vehicles;
 
-import ro.academyplus.avaj.simulator.WeatherTower;
-import ro.academyplus.avaj.weather.Coordinates;
+import unitfactory.avaj.simulator.WeatherTower;
+import unitfactory.avaj.weather.Coordinates;
 
 public class Baloon extends Aircraft implements Flyable {
     private WeatherTower weatherTower;

@@ -1,4 +1,4 @@
-package ro.academyplus.avaj.weather;
+package unitfactory.avaj.weather;
 
 public class WeatherProvider {
     private static WeatherProvider weatherProvider = new WeatherProvider();

@@ -1,7 +1,7 @@
-package ro.academyplus.avaj.simulator;
+package unitfactory.avaj.simulator;
 
-import ro.academyplus.avaj.weather.Coordinates;
-import ro.academyplus.avaj.weather.WeatherProvider;
+import unitfactory.avaj.weather.Coordinates;
+import unitfactory.avaj.weather.WeatherProvider;
 
 public class WeatherTower extends Tower {
 

@@ -1,4 +1,4 @@
-package ro.academyplus.avaj.simulator.MyException;
+package unitfactory.avaj.simulator.MyException;
 
 public class WrongTypeException extends Exception {
     private String type;

@@ -1,10 +1,10 @@
-package ro.academyplus.avaj.simulator;
+package unitfactory.avaj.simulator;
 
-import ro.academyplus.avaj.simulator.MyException.AmountParameterException;
-import ro.academyplus.avaj.simulator.MyException.WrongCoordException;
-import ro.academyplus.avaj.simulator.MyException.WrongTypeException;
-import ro.academyplus.avaj.simulator.vehicles.AircraftFactory;
-import ro.academyplus.avaj.simulator.vehicles.Flyable;
+import unitfactory.avaj.simulator.MyException.AmountParameterException;
+import unitfactory.avaj.simulator.MyException.WrongCoordException;
+import unitfactory.avaj.simulator.MyException.WrongTypeException;
+import unitfactory.avaj.simulator.vehicles.AircraftFactory;
+import unitfactory.avaj.simulator.vehicles.Flyable;
 
 import java.io.*;
 import java.util.ArrayList;

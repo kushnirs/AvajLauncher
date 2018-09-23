@@ -1,4 +1,4 @@
-package ro.academyplus.avaj.simulator.MyException;
+package unitfactory.avaj.simulator.MyException;
 
 public class WrongCoordException extends Exception {
     private String type;

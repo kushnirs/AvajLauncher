@@ -1,8 +1,8 @@
-package ro.academyplus.avaj.simulator.vehicles;
+package unitfactory.avaj.simulator.vehicles;
 
-import ro.academyplus.avaj.simulator.MyException.WrongCoordException;
-import ro.academyplus.avaj.simulator.MyException.WrongTypeException;
-import ro.academyplus.avaj.weather.Coordinates;
+import unitfactory.avaj.simulator.MyException.WrongCoordException;
+import unitfactory.avaj.simulator.MyException.WrongTypeException;
+import unitfactory.avaj.weather.Coordinates;
 
 public class AircraftFactory {
     public static Flyable newAircraft(String type, String name, int longitude, int latitude, int height)

@@ -3,11 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="4874b5a8-0adc-42e7-b2d5-d2259789612e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/Simulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/AircraftFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/AircraftFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ro/academyplus/avaj/weather/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/academyplus/avaj/weather/Coordinates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenario.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenario.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sources.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sources.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/delete_src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitfactory/avaj/simulator/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/MyException/AmountParameterException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitfactory/avaj/simulator/MyException/AmountParameterException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/MyException/WrongCoordException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitfactory/avaj/simulator/MyException/WrongCoordException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/MyException/WrongTypeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitfactory/avaj/simulator/MyException/WrongTypeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitfactory/avaj/simulator/Simulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/Tower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitfactory/avaj/simulator/Tower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/WeatherTower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitfactory/avaj/simulator/WeatherTower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/Aircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitfactory/avaj/simulator/vehicles/Aircraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/AircraftFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitfactory/avaj/simulator/vehicles/AircraftFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/Baloon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitfactory/avaj/simulator/vehicles/Baloon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/Flyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitfactory/avaj/simulator/vehicles/Flyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/Helicopter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitfactory/avaj/simulator/vehicles/Helicopter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/JetPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitfactory/avaj/simulator/vehicles/JetPlane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/academyplus/avaj/weather/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitfactory/avaj/weather/Coordinates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/academyplus/avaj/weather/WeatherProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitfactory/avaj/weather/WeatherProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenario.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sources.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/start" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,16 +34,18 @@
     <session id="47348760">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="75" />
+          <entry key="java" value="77" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
@@ -36,20 +53,20 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="75" />
+          <entry key="JAVA" value="77" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
-          <entry key="java" value="3995" />
+          <entry key="java" value="4018" />
           <entry key="txt" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3995" />
+          <entry key="JAVA" value="4018" />
           <entry key="PLAIN_TEXT" value="51" />
         </counts>
       </usages-collector>
@@ -57,91 +74,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/Simulator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/MyException/AmountParameterException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="55" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/AircraftFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/WeatherTower.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/scenario.txt">
+        <entry file="file://$PROJECT_DIR$/src/unitfactory/avaj/weather/WeatherProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/Baloon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/weather/Coordinates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/Aircraft.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -172,7 +109,6 @@
         <option value="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/WeatherTower.java" />
         <option value="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/Logger.java" />
         <option value="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/JetPlaneImpl.java" />
-        <option value="$PROJECT_DIR$/src/ro/academyplus/avaj/weather/WeatherProvider.java" />
         <option value="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/WeatherTower.java" />
         <option value="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/Flyable.java" />
         <option value="$PROJECT_DIR$/src/sources.txt" />
@@ -189,6 +125,8 @@
         <option value="$PROJECT_DIR$/src/ro/academyplus/avaj/weather/Coordinates.java" />
         <option value="$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/AircraftFactory.java" />
         <option value="$PROJECT_DIR$/src/scenario.txt" />
+        <option value="$PROJECT_DIR$/src/ro/academyplus/avaj/weather/WeatherProvider.java" />
+        <option value="$PROJECT_DIR$/src/unitfactory/avaj/weather/WeatherProvider.java" />
       </list>
     </option>
   </component>
@@ -201,9 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,50 +151,17 @@
               <item name="avaj" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="avaj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="avaj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="avaj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="avaj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="avaj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="avaj" type="462c0819:PsiDirectoryNode" />
-              <item name="simulator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="avaj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="avaj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="avaj" type="462c0819:PsiDirectoryNode" />
-              <item name="simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="MyException" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="avaj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="avaj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="avaj" type="462c0819:PsiDirectoryNode" />
-              <item name="simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="vehicles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="avaj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="avaj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="avaj" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536672877403" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537694880157" />
     <property name="create.test.in.the.same.root" value="true" />
   </component>
   <component name="RecentsManager">
@@ -297,9 +199,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19595315" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20021299" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -365,10 +266,8 @@
     <entry file="file://$PROJECT_DIR$/src/sources.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/Helicopter.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/Flyable.java">
+    <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/Helicopter.class" />
+    <entry file="file://$PROJECT_DIR$/src/unitfactory/avaj/simulator/vehicles/Flyable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
@@ -378,14 +277,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/Logger.java">
+    <entry file="file://$PROJECT_DIR$/src/unitfactory/avaj/simulator/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/JetPlane.java">
+    <entry file="file://$PROJECT_DIR$/src/unitfactory/avaj/simulator/vehicles/JetPlane.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
@@ -395,7 +294,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/Helicopter.java">
+    <entry file="file://$PROJECT_DIR$/src/unitfactory/avaj/simulator/vehicles/Helicopter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
@@ -405,14 +304,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/weather/WeatherProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/Tower.java">
+    <entry file="file://$PROJECT_DIR$/src/unitfactory/avaj/simulator/Tower.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
@@ -427,7 +319,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/WeatherTower.java">
+    <entry file="file://$PROJECT_DIR$/src/unitfactory/avaj/simulator/WeatherTower.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
@@ -439,24 +331,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/Baloon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/MyException/AmountParameterException.java">
+    <entry file="file://$PROJECT_DIR$/src/unitfactory/avaj/simulator/MyException/AmountParameterException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="55" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/MyException/WrongTypeException.java">
+    <entry file="file://$PROJECT_DIR$/src/unitfactory/avaj/simulator/MyException/WrongTypeException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
@@ -467,17 +349,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/Simulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/MyException/WrongCoordException.java">
+    <entry file="file://$PROJECT_DIR$/src/unitfactory/avaj/simulator/MyException/WrongCoordException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
@@ -488,24 +360,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/weather/Coordinates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/Aircraft.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/academyplus/avaj/simulator/vehicles/AircraftFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/unitfactory/avaj/simulator/vehicles/AircraftFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
@@ -517,8 +372,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scenario.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="60">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unitfactory/avaj/simulator/vehicles/Baloon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unitfactory/avaj/weather/Coordinates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unitfactory/avaj/simulator/vehicles/Aircraft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unitfactory/avaj/simulator/Simulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unitfactory/avaj/weather/WeatherProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
