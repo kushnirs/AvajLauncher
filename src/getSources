@@ -1,0 +1,2 @@
+rm -rf sources.txt
+find . -depth -name "*.java" > sources.txt
